@@ -1,0 +1,1514 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kişiler</title>
+    <link rel="icon" type="image/jpeg" href="media/logo/favicon.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-xl navbar-dark">
+        <div class="container-fluid custom-navbar">
+
+            <!--LOGO START-->
+            <a class="navbar-brand" href="homepage.html">
+                <video class="logo-video" autoplay loop muted playsinline>
+                    <source src="media/logo/Lonelywolf.webm" type="video/webm">
+                    Tarayıcınız video logosunu desteklemiyor.
+                </video>
+                <span>Buram Buram Anadolu</span>
+            </a>
+            <!--LOGO END-->
+
+            <!--SMALL SCREEN BUTTON START-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--SMALL SCREEN BUTTON END-->
+
+            <!--SLOGAN START-->
+            <div class="navbar-center">
+                <span class="navbar-slogan">“Bastığın Yerleri Toprak Diyerek Geçme”</span>
+            </div>
+            <!--SLOGAN END-->
+
+            <!--MENU START-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" aria-current="page" href="about.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle me-2" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                            </svg>
+                            <span>Hakkında</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="food.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none" stroke="currentColor" stroke-width="0.8" class="bi bi-fork-knife me-2">
+                                <path
+                                    d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
+                            </svg>
+                            <span>Mutfak</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="naturebeauty.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-leaf me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.4 1.7c.216.289.65.84 1.725 1.274 1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728.457 1.17 1.13 2.213 2.079 2.961.942.744 2.185 1.22 3.83 1.221 2.588 0 3.91-.66 4.609-1.445-1.789-2.46-4.121-1.213-6.342-2.68-.74-.488-1.735-1.323-1.844-2.308-.023-.214.237-.274.38-.112 1.4 1.6 3.573 1.757 5.59 2.045 1.227.215 2.21.526 3.033 1.158.058-.39.075-.782.075-1.158 0-.91-.288-1.988-.975-2.792-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811" />
+                            </svg>
+                            <span>Doğal Güzellikler</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="historicalplace.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bank me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z" />
+                            </svg>
+                            <span>Tarihi Yerler</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="person.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            </svg>
+                            <span>Kişiler</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--MENU START-->
+    <!--NAVBAR END-->
+
+    <!--REGION CARDS START-->
+    <div class="container mt-5 mb-5">
+
+        <!--PAGE TITLE START-->
+        <div class="text-center mb-5">
+            <h1 class="fw-bold main-title">~ Kişiler ~</h1>
+            <div class="title-line mx-auto mb-5"></div>
+        </div>
+        <!--PAGE TITLE END-->
+
+        <!--REGION START-->
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Akdeniz
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalcemilmeric">
+                    <img src="media/person/akdeniz/cemil_meric.jpeg" class="card-img-top" alt="Cemil Meriç">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cemil Meriç</h5>
+                        <p class="card-text text-truncate">Hatay’ın yetiştirdiği en büyük düşünce insanlarından biri
+                            olan Cemil Meriç, "Kültürden irfana" giden çileli yolun en bilge ve en cesur yolcusudur.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkaracaoglan">
+                    <img src="media/person/akdeniz/karacaoglan.jpeg" class="card-img-top" alt="Karacaoğlan">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Karacaoğlan</h5>
+                        <p class="card-text text-truncate">17. yüzyılın o büyülü Akdeniz yaylalarında doğan Karacaoğlan,
+                            Toroslar’ın vahşi doğasını ve halkın en saf sevdalarını şiirlerine nakış gibi işlemiş bir
+                            gönül adamıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalsenersen">
+                    <img src="media/person/akdeniz/sener-sen.webp" class="card-img-top" alt="Şener Şen">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Şener Şen</h5>
+                        <p class="card-text text-truncate">Adana’nın bereketli topraklarından süzülüp gelen Şener Şen,
+                            Türk sinemasının sadece bir oyuncusu değil, yaşayan en büyük sanat abidelerinden biridir.
+                        </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalyasarkemal">
+                    <img src="media/person/akdeniz/yasar_kemal.jpg" class="card-img-top" alt="Yaşar Kemal">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Yaşar Kemal</h5>
+                        <p class="card-text text-truncate">Anadolu topraklarının en gür ve en insancıl sesi olan Yaşar
+                            Kemal, Akdeniz’in bereketli topraklarını ve Çukurova’nın tozlu yollarını dünya edebiyatına
+                            altın harflerle kazımıştır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Doğu Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalfuatsezgin">
+                    <img src="media/person/doguanadolu/fuat_sezgin.jpg" class="card-img-top" alt="Fuat Sezgin">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Prof. Dr. Fuat Sezgin</h5>
+                        <p class="card-text text-truncate">Prof. Dr. Fuat Sezgin (1924–2018), İslam bilim tarihi
+                            alanında dünya
+                            çapında tanınan bir bilim insanıdır. Hellmut Ritter’in etkisiyle İslam dünyasının bilimsel
+                            katkılarını araştırmaya yönelmiştir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkazımkarabekir">
+                    <img src="media/person/doguanadolu/kazim_karabekir.webp" class="card-img-top" alt="Kazım Karabekir">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kazım Karabekir</h5>
+                        <p class="card-text text-truncate">Musa Kâzım Karabekir (23 Temmuz 1882, İstanbul - 26 Ocak
+                            1948, Ankara), Türk asker ve siyasetçidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalfevzicakmak">
+                    <img src="media/person/doguanadolu/maresal_fevzi_cakmak.jpg" class="card-img-top"
+                        alt="Fevzi Çakmak">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Fevzi Çakmak</h5>
+                        <p class="card-text text-truncate">Fevzi Çakmak (1876–1950), Osmanlı’dan Cumhuriyet’e uzanan
+                            süreçte önemli rol oynamış Türk asker ve devlet adamıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalnenehatun">
+                    <img src="media/person/doguanadolu/nene_hatun.webp" class="card-img-top" alt="Nene Hatun">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Nene Hatun</h5>
+                        <p class="card-text text-truncate">Nene Hatun (d. 1857 - ö. 22 Mayıs 1955, Erzurum), 93 Harbi
+                            sırasında Erzurum'da Aziziye savunmasına katılan, Rus işgaline karşı Erzurum'daki halk
+                            direnişinin simgesi hâline gelmiş olan Türk kadın kahraman.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Ege
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalherodot">
+                    <img src="media/person/ege/herodot.jpg" class="card-img-top" alt="Herodotos">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Herodotos</h5>
+                        <p class="card-text text-truncate">Bodrum'un antik ismi olan Halikarnas’ta dünyaya gelen
+                            Herodotos, sadece bir tarihçi değil, aynı zamanda dünyanın ilk seyyahlarından biri olarak
+                            kabul edilir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalnecaticumali">
+                    <img src="media/person/ege/necati_cumali.jpg" class="card-img-top" alt="Necati Cumalı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Necati Cumalı</h5>
+                        <p class="card-text text-truncate">Aslen Balkan göçmeni bir ailenin çocuğu olsa da, yüreği ve
+                            kalemi tamamen Ege'ye aittir. Özellikle Urla ve çevresindeki kasaba yaşamını, tütün
+                            tarlalarını, Ege insanının çilesini, aşklarını ve tutkularını anlattığı eserleriyle tanınır.
+                        </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalthales">
+                    <img src="media/person/ege/thales.jpg" class="card-img-top" alt="Thales">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Miletli Thales</h5>
+                        <p class="card-text text-truncate">Aydın'ın Didim sınırları içerisinde bulunan Milet Antik
+                            Kenti'nde yaşamış olan Thales, Batı düşünce tarihinin başlangıç noktasıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalaliefe">
+                    <img src="media/person/ege/yoruk_efe.jpg" class="card-img-top" alt="Yörük Ali Efe">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Yörük Ali Efe</h5>
+                        <p class="card-text text-truncate">Aydın'ın Sultanhisar ilçesinde doğan Yörük Ali Efe, Kurtuluş
+                            Savaşı sırasında Ege cephesinde işgal güçlerine karşı başlattığı direnişle halkın moral
+                            kaynağı ve umudu olmuştur.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Güneydoğu Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalelcezeri">
+                    <img src="media/person/guneydoguanadolu/el_cezeri.webp" class="card-img-top" alt="El Cezeri">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">El Cezeri</h5>
+                        <p class="card-text text-truncate">1136-1206 yılları arasında Cizre’de yaşayan El Cezeri;
+                            fizikçi, mühendis ve dünyanın ilk robot ustası olarak kabul edilir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalsahinbey">
+                    <img src="media/person/guneydoguanadolu/sahin_bey2.jpg" class="card-img-top" alt="Şahin Bey">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Şahin Bey</h5>
+                        <p class="card-text text-truncate">Asıl adı Mehmet Sait olan Şahin Bey, Fransız işgali altındaki
+                            Antep’i savunmak için halkın direnişini örgütleyen efsanevi bir komutandır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalsezaikarakoc">
+                    <img src="media/person/guneydoguanadolu/sezai_karakoc.jpg" class="card-img-top" alt="Sezai Karakoç">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sezai Karakoç</h5>
+                        <p class="card-text text-truncate">1933 yılında Diyarbakır’ın Ergani ilçesinde doğan Sezai
+                            Karakoç; şair, yazar ve mütefekkirdir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalziyagokalp">
+                    <img src="media/person/guneydoguanadolu/ziya_gokalp.jpeg" class="card-img-top" alt="Ziya Gökalp">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ziya Gökalp</h5>
+                        <p class="card-text text-truncate">1876 yılında Diyarbakır’da doğan Ziya Gökalp; yazar, şair ve
+                            siyasetçidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    İç Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalasikveysel">
+                    <img src="media/person/icanadolu/asik_veysel.jpeg" class="card-img-top" alt="Aşık Veysel">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Aşık Veysel</h5>
+                        <p class="card-text text-truncate">1894 yılında Sivas’ın Şarkışla ilçesinde doğan Âşık Veysel,
+                            yedi yaşında geçirdiği çiçek hastalığı nedeniyle her iki gözünü de kaybetmiştir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalcahitarf">
+                    <img src="media/person/icanadolu/cahit_arf.jpg" class="card-img-top" alt="Cahit Arf">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cahit Arf</h5>
+                        <p class="card-text text-truncate">1910-1997 yılları arasında yaşamış olan Cahit Arf, dünya
+                            çapında tanınan Türk matematikçi ve bilim insanıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalmevlana">
+                    <img src="media/person/icanadolu/mevlana.jpg" class="card-img-top" alt="Mevlânâ Celâleddîn-i Rûmî">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Mevlânâ Celâleddîn-i Rûmî</h5>
+                        <p class="card-text text-truncate">1207 yılında Belh’te doğan ve ömrünün büyük kısmını Anadolu
+                            Selçuklu Devleti’nin başkenti Konya’da geçiren Mevlânâ; sevgi, hoşgörü ve barışın
+                            sembolüdür.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalnasreddinhoca">
+                    <img src="media/person/icanadolu/nasreddin_hoca.webp" class="card-img-top" alt="Nasreddin Hoca">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Nasreddin Hoca</h5>
+                        <p class="card-text text-truncate">13.yüzyılda Eskişehir’in Sivrihisar ilçesinde doğan ve
+                            Akşehir’de yaşayan Nasreddin Hoca; sadece bir fıkra kahramanı değil, toplumsal aksaklıkları
+                            mizahla eleştiren bir halk bilgesi ve filozoftur.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Karadeniz
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalbedrirahmieyuboglu">
+                    <img src="media/person/karadeniz/bedri_rahmi_eyuboglu.webp" class="card-img-top"
+                        alt="Bedri Rahmi Eyüboğlu">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bedri Rahmi Eyüboğlu</h5>
+                        <p class="card-text text-truncate">Türk sanat tarihinin en çok yönlü isimlerinden biri olan
+                            Bedri Rahmi Eyüboğlu, "D Grubu" sanatçılarından biri olarak resimde batılı teknikleri
+                            Anadolu’nun kilim motifleri, yazmaları ve duvar süslemeleriyle birleştirmiştir..</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalerenbulbul">
+                    <img src="media/person/karadeniz/eren_bulbul.webp" class="card-img-top" alt="Eren Bülbül">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Eren Bülbül</h5>
+                        <p class="card-text text-truncate">11 Ağustos 2017'de, Trabzon'un Maçka ilçesi kırsalında terör
+                            örgütü mensuplarıyla sağlanan sıcak temas sırasında hayatını kaybeden 15 yaşındaki Eren
+                            Bülbül, Türk milletinin gönlünde silinmez bir iz bırakmıştır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaltopalosmanaga">
+                    <img src="media/person/karadeniz/topal_osman.jpg" class="card-img-top" alt="Topal Osman Ağa">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Topal Osman Ağa</h5>
+                        <p class="card-text text-truncate">1883 Giresun doğumlu olan Osman Ağa, Balkan Harbi'nde
+                            bacağından yaralanarak "Topal" lakabını almış, buna rağmen vatan savunmasından geri
+                            durmamıştır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalvolkankonak">
+                    <img src="media/person/karadeniz/volkan_konak.jpg" class="card-img-top" alt="Volkan Konak">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Volkan Konak</h5>
+                        <p class="card-text text-truncate">Trabzon’un Maçka ilçesinde doğan Volkan Konak, Karadeniz
+                            müziğini sadece yerel bir ezgi olmaktan çıkarıp, batı enstrümanları ve evrensel formlarla
+                            harmanlayarak geniş kitlelere sevdiren bir "müzik elçisidir".</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Marmara
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalahmethamditampinar">
+                    <img src="media/person/marmara/ahmet_hamdi_tanpınar.webp" class="card-img-top"
+                        alt="Ahmet Hamdi Tampınar">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ahmet Hamdi Tanpınar</h5>
+                        <p class="card-text text-truncate">İstanbul'un kalbinde, 1901 yılında dünyaya gelen Tanpınar,
+                            şehrin değişimini ve ruhunu edebiyata en derin işleyen isimdir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalaziznesin">
+                    <img src="media/person/marmara/aziz_nesin.webp" class="card-img-top" alt="Aziz Nesin">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Aziz Nesin</h5>
+                        <p class="card-text text-truncate">Aziz Nesin, 1915 yılında İstanbul’un Heybeliada semtinde
+                            dünyaya gelmiştir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalbarismanco">
+                    <img src="media/person/marmara/baris-manco.jpg" class="card-img-top" alt="Barış Manço">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Barış Manço</h5>
+                        <p class="card-text text-truncate">1943 yılında İstanbul'un Üsküdar semtinde doğan Barış Manço,
+                            Marmara'nın modern ve globalleşen yüzünün en sevilen temsilcisidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalfsm">
+                    <img src="media/person/marmara/fsm.jpg" class="card-img-top" alt="Fatih Sultan Mehmet">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Fatih Sultan Mehmet</h5>
+                        <p class="card-text text-truncate">Osmanlı'nın en parlak dönemlerinden birinin mimarı olan Fatih
+                            Sultan Mehmet, 1432 yılında Edirne'de dünyaya gelmiştir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--REGION START-->
+    <!--REGION CARDS END-->
+
+
+
+
+    <!--FOOTER START-->
+    <footer class="py-3 mt-4 text-white">
+        <div class="container-fluid">
+            <ul class="nav justify-content-evenly flex-wrap py-3 mb-3 footer-names">
+                <li class="nav-item"><span class="px-2">EFE OPAK</span></li>
+                <li class="nav-item"><span class="px-2">ÖMER FARUK KAZAR</span></li>
+                <li class="nav-item"><span class="px-2">MUHAMMED MUSTAFA KİLCAROĞLU</span></li>
+                <li class="nav-item"><span class="px-2">ALPEREN İLHAN</span></li>
+                <li class="nav-item"><span class="px-2">NURİ ERDEM</span></li>
+            </ul>
+
+            <p class="footer-note">
+                İnternet Teknolojileri final projesi kapsamında geliştirilmiştir.
+            </p>
+
+            <p class="text-center mt-3 mb-0 small">
+                © 2026 Buram Buram Anadolu
+            </p>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--IMPORT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <!--POP UP FOR CARDS-->
+    <!--AKDENİZ-->
+    <div class="modal fade" id="modalcemilmeric" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Cemil Meriç
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/akdeniz/cemil_meric.jpeg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Cemil Meriç">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Hatay’ın yetiştirdiği en büyük düşünce insanlarından biri olan Cemil Meriç, "Kültürden irfana"
+                        giden çileli yolun en bilge ve en cesur yolcusudur. Fiziksel gözlerini dünya ışığına erken yaşta
+                        kapatmış olsa da, zihin ve gönül gözüyle evrensel kültürün tüm hazinelerini kucaklamış bir
+                        entelektüel devdir. Doğu ve Batı medeniyetleri arasında muazzam bir fikir köprüsü kurarak,
+                        modernleşme sancıları çeken topluma kendi köklerini ve kimliğini hatırlatmıştır. Eserlerindeki
+                        üslup titizliği ve düşüncelerindeki sarsılmaz derinlik, onu Türk düşünce tarihinin en özgün ve
+                        en sarsıcı isimlerinden biri haline getirmiştir. Akdeniz’in o çok kültürlü mirasını ve felsefi
+                        zenginliğini kendi hayatıyla ve eserleriyle harmanlayan Meriç, fikir dünyamızın sönmeyen kutup
+                        yıldızıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalkaracaoglan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Karacaoğlan
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/akdeniz/karacaoglan.jpeg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Karacaoğlan">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        17. yüzyılın o büyülü Akdeniz yaylalarında doğan Karacaoğlan, Toroslar’ın vahşi doğasını ve
+                        halkın en saf sevdalarını şiirlerine nakış gibi işlemiş bir gönül adamıdır. Göçebe Yörük
+                        kültürünün en lirik temsilcisi olarak, Türk dilinin en duru ve en sıcak halini sazıyla
+                        birleştirerek yüzyılları aşan bir köprü kurmuştur. Şiirlerinde bahsettiği her pınar, her dağ
+                        çiçeği ve her güzel, aslında bu toprakların özünden kopup gelmiş birer kültürel motiftir. Halkın
+                        dertlerini ve aşklarını en samimi haliyle dile getirmesi, onu Anadolu’nun her köşesinde ezbere
+                        bilinen bir halk kahramanı haline getirmiştir. O, Akdeniz’in esen rüzgarında, akan deresinde ve
+                        dilden dile dolaşan her sevdalı türküde yaşamaya devam eden sönmez bir halk meşalesidir.
+
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalsenersen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Şener Şen
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/akdeniz/sener-sen.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Şener Şen">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Adana’nın bereketli topraklarından süzülüp gelen Şener Şen, Türk sinemasının sadece bir oyuncusu
+                        değil, yaşayan en büyük sanat abidelerinden biridir. Adana’nın o kendine has neşesini,
+                        samimiyetini ve yeri geldiğinde o derin hüznünü karakterlerine ilmek ilmek işleyerek toplumsal
+                        bir ayna tutmuştur. Komediden drama uzanan o muazzam oyunculuk yelpazesi, onun sadece bir
+                        sanatçı değil, insan ruhunun derinliklerini keşfeden bir usta olduğunu kanıtlar. Her rolünde
+                        sergilediği o asil vakar ve işine duyduğu sonsuz saygı, onu nesiller boyu sürecek bir sevginin
+                        ve hayranlığın odağı haline getirmiştir. Yeşilçam’ın o altın çağını günümüzün modern anlatısıyla
+                        birleştiren Şen, Akdeniz’in o bitmek bilmeyen enerjisini sahnede canlandıran bir ekoldür. O, bu
+                        coğrafyanın yetiştirdiği en rafine yeteneklerden biri olarak, Anadolu’nun samimi yüzünü temsil
+                        eden bir gurur kaynağıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalyasarkemal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Yaşar Kemal
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/akdeniz/yasar_kemal.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Yaşar Kemal">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Anadolu topraklarının en gür ve en insancıl sesi olan Yaşar Kemal, Akdeniz’in bereketli
+                        topraklarını ve Çukurova’nın tozlu yollarını dünya edebiyatına altın harflerle kazımıştır. İnce
+                        Memed ile yarattığı başkaldırı efsanesi, sadece bir eşkıya hikayesi değil, insanın doğayla ve
+                        haksızlıkla olan kadim mücadelesinin epik bir anlatımıdır. Nobel Edebiyat Ödülü’ne aday
+                        gösterilen ilk Türk yazar olarak, Anadolu insanının çilesini, umudunu ve doğayla olan sarsılmaz
+                        bağını destansı bir dille anlatmıştır. Onun kaleminden dökülen her cümle, Toroslar’ın rüzgarını,
+                        pamuk işçilerinin alın terini ve Akdeniz’in sıcak güneşini içinde barındırır. Yaşar Kemal, bu
+                        coğrafyanın sadece yazarı değil, aynı zamanda toprağın, suyun ve mazlumun vicdanı olan ölümsüz
+                        bir değerdir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--DOĞU ANADOLU-->
+    <div class="modal fade" id="modalfuatsezgin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Prof. Dr. Fuat Sezgin
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/doguanadolu/fuat_sezgin.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Prof. Dr. Fuat Sezgin">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Fuat Sezgin (1924–2018), İslam bilim tarihi alanında dünya çapında tanınan bir bilim insanıdır.
+                        Hellmut Ritter’in etkisiyle İslam dünyasının bilimsel katkılarını araştırmaya yönelmiştir.
+
+                        Almanya’da Johann Wolfgang Goethe Üniversitesi bünyesinde çalışmalarını sürdürmüş; en önemli
+                        eseri olan “Geschichte des arabischen Schrifttums” ile İslam bilim ve edebiyat tarihine büyük
+                        katkı sağlamıştır.
+
+                        1982’de Arap-İslam Bilimleri Tarihi Enstitüsü’nü kurmuş, ayrıca İstanbul İslam Bilim ve
+                        Teknoloji Tarihi Müzesi’nin açılmasına öncülük etmiştir. Çok sayıda dil bilen Sezgin, İslam
+                        medeniyetinin bilimsel mirasını uluslararası alanda tanıtan önemli bir isimdir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalkazımkarabekir" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Kazım Karabekir
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/doguanadolu/kazim_karabekir.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Kazım Karabekir">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Musa Kâzım Karabekir(Osmanlıca: موسی كاظم قرە بكر) (23 Temmuz 1882, İstanbul - 26 Ocak 1948,
+                        Ankara), Türk asker ve siyasetçidir. "Alçıtepe Kahramanı" namıyla tanınır. Türk Kurtuluş
+                        Savaşı'nı başlatan komutanların arasında yer alarak Doğu Cephesi'nde gösterdiği başarılardan
+                        dolayı Kırmızı-Yeşil şeritli İstiklâl Madalyası ile taltif edildi. Türkiye Cumhuriyeti'nin ilk
+                        muhalif partisi olan Terakkiperver Cumhuriyet Fırkası'nın kurucuları arasında yer alıp, genel
+                        başkanı oldu. Afşar Türklerinden olup soyu Karamanoğulları'na dayanmaktadır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalfevzicakmak" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Fevzi Çakmak
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/doguanadolu/maresal_fevzi_cakmak.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Fevzi Çakmak">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Fevzi Çakmak (1876–1950), Osmanlı’dan Cumhuriyet’e uzanan süreçte önemli rol oynamış Türk asker
+                        ve devlet adamıdır. Mustafa Kemal Atatürk’ten sonra Türkiye’nin ikinci ve son mareşali olmuştur.
+
+                        Kuleli Askerî Lisesi ve Harp Okulu’nda eğitim aldıktan sonra kurmay subay olarak orduda görev
+                        yapmaya başlamış; Balkanlar’da Sırp ve Arnavut çetelere karşı yürütülen operasyonlarda aktif rol
+                        üstlenmiştir. Balkan Savaşları sırasında çeşitli komutanlık ve kurmay görevlerinde bulunmuş,
+                        Vardar Ordusu’nda önemli görevler üstlenmiştir.
+
+                        Osmanlı’nın son döneminde Harbiye Nazırlığı da yapan Çakmak, Cumhuriyet’in ilanından sonra
+                        Türkiye’nin ilk Millî Savunma Bakanı ve ilk Genelkurmay Başkanı olmuş, Türk Silahlı
+                        Kuvvetleri’nin yapılanmasında belirleyici rol oynamıştır. 1950 yılında İstanbul’da hayatını
+                        kaybetmiştir.
+
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalnenehatun" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Nene Hatun
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/doguanadolu/nene_hatun.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Nene Hatun">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Nene Hatun (d. 1857 - ö. 22 Mayıs 1955, Erzurum), 93 Harbi sırasında Erzurum'da Aziziye
+                        savunmasına katılan, Rus işgaline karşı Erzurum'daki halk direnişinin simgesi hâline gelmiş olan
+                        Türk kadın kahraman.
+
+                        Rus askerlerin 8 Kasım 1877 gecesi Aziziye Tabyası'nı ele geçirdiği haberinin Erzurum'da sabah
+                        ezanında minarelerden duyurulması üzerine Osmanlı askerine yardım için taş ve sopalarla
+                        mücadeleye giren şehir halkına katılmış ve gösterdiği yararlılıklar sonucu efsaneleşmiştir.
+
+                        1955 yılında Türk Kadınlar Birliği tarafından Yılın Annesi seçilen Nene Hatun, Türkiye'de “Yılın
+                        Annesi” unvanı verilmiş ilk kadındır. Ayrıca Türk Silahlı Kuvvetleri tarafından verilmiş olan
+                        “3. Ordunun Nenesi” unvanını taşır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--EGE-->
+    <div class="modal fade" id="modalherodot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Herodotos
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/ege/herodot.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Herodotos">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Bodrum'un antik ismi olan Halikarnas’ta dünyaya gelen Herodotos, sadece bir tarihçi değil, aynı
+                        zamanda dünyanın ilk seyyahlarından biri olarak kabul edilir. Onu diğerlerinden ayıran en önemli
+                        özellik, geçmişi anlatırken kulaktan dolma efsanelere veya mitolojiye dayanmak yerine, bizzat
+                        gezerek, görerek ve tanıklarla konuşarak bilgi toplamasıdır. "Historia" adlı eseriyle olayları
+                        neden-sonuç ilişkisi içinde inceleyen ilk kişi olması, onu "Tarihin Babası" unvanına taşımıştır.
+                        Herodotos, Ege'nin antik dünyadaki meraklı ve sorgulayıcı ruhunun en somut örneğidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalnecaticumali" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Necati Cumalı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/ege/necati_cumali.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Necati Cumalı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Aslen Balkan göçmeni bir ailenin çocuğu olsa da, yüreği ve kalemi tamamen Ege'ye aittir.
+                        Özellikle Urla ve çevresindeki kasaba yaşamını, tütün tarlalarını, Ege insanının çilesini,
+                        aşklarını ve tutkularını anlattığı eserleriyle tanınır. En ünlü eseri olan Susuz Yaz,
+                        uluslararası başarı kazanmış ve Ege'nin kırsalındaki insan dramını tüm dünyaya taşımıştır.
+                        Cumalı, Ege’nin o sıcak, bazen sert ama her zaman insancıl olan atmosferini, en yalın ve en
+                        edebi dille anlatan, bölgenin "yazılı hafızası" sayılabilecek dev bir isimdir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalthales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Miletli Thales
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/ege/thales.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Miletli Thales">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Aydın'ın Didim sınırları içerisinde bulunan Milet Antik Kenti'nde yaşamış olan Thales, Batı
+                        düşünce tarihinin başlangıç noktasıdır. O dönemde doğa olayları (fırtına, deprem, güneş
+                        tutulması) tanrıların gazabı veya isteği olarak açıklanırken, Thales her şeyin altında rasyonel
+                        bir neden aradı. M.Ö. 585 yılındaki güneş tutulmasını önceden tahmin etmesi, matematiksel
+                        yetenekleri ve "her şeyin başlangıcı sudur" diyerek evreni maddesel bir temele oturtmaya
+                        çalışması, onu bilimin ilk öncüsü yapmıştır. Thales, insanlığın mitolojiden bilime geçişindeki o
+                        kritik eşiği temsil eder.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalaliefe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Yörük Ali Efe
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/ege/yoruk_efe.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Yörük Ali Efe">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Aydın'ın Sultanhisar ilçesinde doğan Yörük Ali Efe, Kurtuluş Savaşı sırasında Ege cephesinde
+                        işgal güçlerine karşı başlattığı direnişle halkın moral kaynağı ve umudu olmuştur. 1919'da
+                        gerçekleştirdiği Malgaç Baskını ile düzenli ordu kurulmadan önce düşmana ilk büyük darbeyi vuran
+                        Kuva-yi Milliye lideridir. Efeliğin yalnızca bir giyim kuşam değil, aynı zamanda adalet, cesaret
+                        ve vatanseverlik olduğunu kanıtlamıştır. Ege'nin dağlarından kopup gelen bu direniş ruhu, bölge
+                        halkı için bağımsızlığın ve teslim olmamanın en güçlü simgesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--GÜNEYDOĞU ANADOLU-->
+    <div class="modal fade" id="modalelcezeri" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">El Cezeri
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/guneydoguanadolu/el_cezeri.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="El Cezeri">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1136-1206 yılları arasında Cizre’de yaşayan El Cezeri; fizikçi, mühendis ve dünyanın ilk robot
+                        ustası olarak kabul edilir. Artuklu Sarayı’nda 25 yıl başmühendislik yapan dahi, bugün
+                        kullandığımız sibernetik ve robotik biliminin temellerini 800 yıl önce atmıştır. Leonardo da
+                        Vinci’ye ilham kaynağı olduğu düşünülen Cezeri, sadece teorik değil, pratik ve çalışan sistemler
+                        üretmesiyle tanınır.
+
+                        En ünlü eseri olan "Olağanüstü Mekanik Araçların Bilgisi Hakkında Kitap"ta (Kitab-ül Hiyel),
+                        50’den fazla mekanik cihazın nasıl yapılacağını teknik çizimlerle anlatmıştır. Filli Su Saati,
+                        otomatik abdest alma robotu ve saz çalan otomatlar gibi icatları; dişli çarklar, şamandıralar ve
+                        palangalar kullanarak tasarladığı birer mühendislik harikasıdır. "Uygulamaya dökülmeyen her
+                        teknik ilim, doğru ile yanlış arasında kalır" sözüyle, mühendisliğin pratik yönünü her zaman
+                        vurgulamıştır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalsahinbey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Şahin Bey
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/guneydoguanadolu/sahin_bey2.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Şahin Bey">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Asıl adı Mehmet Sait olan Şahin Bey, Fransız işgali altındaki Antep’i savunmak için halkın
+                        direnişini örgütleyen efsanevi bir komutandır. Trablusgarp, Balkan Savaşları ve I. Dünya
+                        Savaşı’nda cepheden cepheye koşan deneyimli bir asker olarak, 1920 yılında Antep-Kilis yolunu
+                        kapatarak Fransız garnizonunun lojistik desteğini kesmiş ve işgalcilere karşı amansız bir
+                        mücadele başlatmıştır.
+
+                        "Düşman arabaları cesedimi çiğnemeden Antep'e giremez!" sözüyle tarihe geçen Şahin Bey,
+                        emrindeki kısıtlı milis kuvvetiyle kendisinden kat kat üstün Fransız ordusuna karşı Elmalı
+                        Köprüsü mevkiinde kahramanca direnmiştir. 28 Mart 1920’de, son mermisi bitene kadar savaşmış ve
+                        süngü darbeleriyle şehit düşmüştür. Onun bu fedakarlığı, Antep halkına büyük bir moral kaynağı
+                        olmuş ve şehrin "Gazi" unvanı almasına giden yolu açmıştır.
+
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalsezaikarakoc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Sezai Karakoç
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/guneydoguanadolu/sezai_karakoc.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Sezai Karakoç">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1933 yılında Diyarbakır’ın Ergani ilçesinde doğan Sezai Karakoç; şair, yazar ve mütefekkirdir.
+                        Modern Türk şiirini geleneksel İslami düşünceyle harmanlayan "Diriliş" akımının kurucusudur.
+                        Karakoç, edebiyatı sadece sanatsal bir uğraş olarak değil, bir milletin ruhsal ve zihinsel
+                        uyanışının aracı olarak görmüştür.
+
+                        Türk edebiyatının en meşhur aşk şiirlerinden biri olan "Mona Roza"nın yazarıdır. Ancak o, sadece
+                        lirik bir şair değil, aynı zamanda Doğu ve Batı medeniyetlerini analiz eden güçlü bir
+                        düşünürdür. 2011 yılında Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülü'ne layık görülmüş, ancak
+                        ödülü almaya gitmeyerek şahsına münhasır, vakur duruşunu korumuştur. Mezopotamya’nın kadim
+                        bilgeliğini modern mısralara taşıyan Karakoç, 2021 yılında İstanbul’da vefat etmiştir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalziyagokalp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Ziya Gökalp
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/guneydoguanadolu/ziya_gokalp.jpeg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Ziya Gökalp">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1876 yılında Diyarbakır’da doğan Ziya Gökalp; yazar, şair ve siyasetçidir. Türkiye’de
+                        sosyolojiyi (toplum bilimi) bir disiplin haline getiren ilk isimdir. "Halka Doğru" ilkesini
+                        benimseyen Gökalp, Türk toplumunun kendi öz değerlerini modernleşmeyle nasıl harmanlaması
+                        gerektiği üzerine devrim niteliğinde fikirler üretmiştir.
+
+                        En ünlü eseri olan "Türkçülüğün Esasları"nda, milliyetçiliği ırkçılıktan ayırarak kültürel bir
+                        birliktelik olarak tanımlamış; dilde, dinde ve hukukta sadeleşmeyi savunmuştur. Atatürk’ün
+                        "Vücudumun babası Ali Rıza Efendi, fikirlerimin babası ise Ziya Gökalp'tir" dediği bu büyük
+                        düşünür, modern Türkiye Cumhuriyeti’nin laik ve demokratik yapısının sosyolojik temellerini
+                        atmıştır. Diyarbakır’daki evi bugün müze olarak hizmet vermekte ve onun entelektüel mirasını
+                        yaşatmaktadır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--İÇ ANADOLU-->
+    <div class="modal fade" id="modalasikveysel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Aşık Veysel
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/icanadolu/asik_veysel.jpeg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Aşık Veysel">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1894 yılında Sivas’ın Şarkışla ilçesinde doğan Âşık Veysel, yedi yaşında geçirdiği çiçek
+                        hastalığı nedeniyle her iki gözünü de kaybetmiştir. Babasının oyalanması için aldığı sazla
+                        tanışan Veysel, gönül dünyasındaki derinliği Anadolu’nun yanık ezgileriyle birleştirmiş ve Türk
+                        halk müziğinin en büyük temsilcilerinden biri olmuştur. "Uzun İnce Bir Yoldayım", "Kara Toprak"
+                        ve "Dostlar Beni Hatırlasın" gibi eserleriyle ölüm, yaşam ve doğa sevgisini evrensel bir dille
+                        anlatmıştır.
+
+                        Halkın diliyle konuşan, mütevazı kişiliğiyle bilinen Veysel, aynı zamanda doğaya duyduğu derin
+                        saygıyla tanınır; ağaç dikmeyi ve toprağı "sadık yâri" olarak görmeyi herkese aşılamıştır. 1973
+                        yılında vefat eden büyük ozan, geride bıraktığı şiirleri ve besteleriyle Anadolu insanın
+                        duygularına tercüman olmaya devam etmekte, Sivas’taki köyü Sivrialan’daki evi müze olarak
+                        ziyaretçilerini ağırlamaktadır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalcahitarf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Cahit Arf
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/icanadolu/cahit_arf.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Cahit Arf">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1910-1997 yılları arasında yaşamış olan Cahit Arf, dünya çapında tanınan Türk matematikçi ve
+                        bilim insanıdır. Kendi adıyla anılan "Arf Sabiti", "Arf Halkaları" ve "Arf Değişmezi" gibi
+                        buluşlarıyla dünya matematik literatürüne adını altın harflerle yazdırmıştır. Cebir ve sayılar
+                        teorisi üzerine yaptığı çalışmalarla, soyut matematiğin sınırlarını genişletmiştir.
+
+                        "Matematik esas olarak sabır işidir. Belleyerek değil, keşfederek anlamak gerekir" sözüyle
+                        bilimsel yaklaşımını özetleyen Arf, sadece bir teorisyen değil, aynı zamanda Türkiye'de bilimsel
+                        düşüncenin kurumsallaşması (TÜBİTAK'ın kuruluşu gibi) için büyük emek vermiş bir önderdir. 10
+                        Türk Lirası'nın üzerindeki portresiyle her gün karşılaştığımız bu dahi, bilimin evrenselliğini
+                        Anadolu'dan dünyaya kanıtlamıştır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalmevlana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Mevlânâ Celâleddîn-i
+                        Rûmî
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/icanadolu/mevlana.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Mevlânâ Celâleddîn-i Rûmî ">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1207 yılında Belh’te doğan ve ömrünün büyük kısmını Anadolu Selçuklu Devleti’nin başkenti
+                        Konya’da geçiren Mevlânâ; sevgi, hoşgörü ve barışın sembolüdür. "Rûmî" ismi, o dönemde "Rum
+                        diyarı" olarak anılan Anadolu'da yaşamasından gelir. 1244 yılında Şems-i Tebrîzî ile
+                        karşılaşması, onun hayatında bir dönüm noktası olmuş; bu buluşma onu medrese hocalığından "ilahi
+                        aşkın" peşindeki bir mutasavvıfa dönüştürmüştür.
+
+                        En önemli eseri olan 26 bin beyitlik Mesnevi, İslam tasavvufunun en büyük şaheserlerinden biri
+                        kabul edilir ve bugün dünyanın pek çok diline çevrilmiştir. "Gel, ne olursan ol yine gel"
+                        çağrısıyla din, dil ve ırk ayrımı gözetmeksizin tüm insanlığı kucaklayan Mevlânâ, her yıl 17
+                        Aralık'ta (şeb-i arûs - düğün gecesi) "Yaradan'a kavuşma" günü olarak anılır. Onun başlattığı
+                        Mevlevilik yolu ve sema ayini, UNESCO Somut Olmayan Kültürel Miras Listesi'nde yer alan evrensel
+                        bir değerdir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalnasreddinhoca" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Nasreddin Hoca
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/icanadolu/nasreddin_hoca.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Nasreddin Hoca">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        13.yüzyılda Eskişehir’in Sivrihisar ilçesinde doğan ve Akşehir’de yaşayan Nasreddin Hoca; sadece
+                        bir fıkra kahramanı değil, toplumsal aksaklıkları mizahla eleştiren bir halk bilgesi ve
+                        filozoftur. Hikayelerinde kullandığı "eşeğe ters binme", "göle maya çalma" veya "parayı veren
+                        düdüğü çalar" gibi metaforlar, yüzyıllardır Anadolu insanına hem ders vermiş hem de
+                        düşündürmüştür.
+
+                        Onun fıkraları aslında birer toplumsal analiz ve adalet arayışıdır. Her bir hikaye, insan
+                        doğasının zaaflarını, zekanın kaba kuvvete üstünlüğünü ve her koşulda umudu korumayı öğütler.
+                        1284 yılında vefat eden Hoca'nın Akşehir'deki türbesi, "dünyanın ortası" olarak kabul edilir ve
+                        her yıl adına düzenlenen festivallerle hatırası tüm dünyada yaşatılmaya devam eder.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- KARADENİZ -->
+    <div class="modal fade" id="modalbedrirahmieyuboglu" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Bedri Rahmi Eyüboğlu
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/karadeniz/bedri_rahmi_eyuboglu.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Bedri Rahmi Eyüboğlu">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Türk sanat tarihinin en çok yönlü isimlerinden biri olan Bedri Rahmi Eyüboğlu, "D Grubu"
+                        sanatçılarından biri olarak resimde batılı teknikleri Anadolu’nun kilim motifleri, yazmaları ve
+                        duvar süslemeleriyle birleştirmiştir. "Mavi Anadolu" düşüncesinin savunucularından biri olan
+                        sanatçı, sadece tuval üzerinde değil; mozaik, seramik, vitray ve gravür gibi pek çok farklı
+                        "arayüzde" eserler üretmiştir. İstanbul Manifaturacılar Çarşısı'ndaki (İMÇ) devasa mozaik
+                        panosu, onun anıtsal sanat anlayışının en somut örneklerinden biridir.
+
+                        Aynı zamanda güçlü bir kalem olan Bedri Rahmi, "Karadut" gibi unutulmaz şiirleriyle
+                        edebiyatımızda derin izler bırakmıştır. Sanatında halk kültüründen beslenen "canlı ve dinamik"
+                        bir üslubu benimsemiş; Anadolu'nun her köşesinden topladığı verileri, kendine has bir estetik
+                        algoritmayla yeniden yorumlamıştır. O, hem bir görsel tasarım dehası hem de kelimelerin gücünü
+                        bilen bir duygu mimarıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalerenbulbul" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Eren Bülbül
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/karadeniz/eren_bulbul.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Eren Bülbül">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        11 Ağustos 2017'de, Trabzon'un Maçka ilçesi kırsalında terör örgütü mensuplarıyla sağlanan sıcak
+                        temas sırasında hayatını kaybeden 15 yaşındaki Eren Bülbül, Türk milletinin gönlünde silinmez
+                        bir iz bırakmıştır. Evinin yakınlarındaki bir erzak deposundan hırsızlık yapıldığını fark ederek
+                        durumu güvenlik güçlerine bildiren Eren, bölgeyi göstermek için güvenlik güçlerine rehberlik
+                        ederken çıkan çatışmada, Jandarma Astsubay Kıdemli Başçavuş Ferhat Gedik ile birlikte şehit
+                        olmuştur.
+
+                        Eren'in vefatından iki ay önce sosyal medya hesabından paylaştığı "Biri de çıkıp demiyor ki Eren
+                        iyi ki varsın" sözü, olayın ardından milyonlarca insan tarafından sahiplenilerek bir vefa
+                        sloganına dönüşmüştür. Eren Bülbül, bugün Karadeniz'in sarp dağlarında yankılanan cesaretin ve
+                        fedakarlığın en masum ama en güçlü sesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modaltopalosmanaga" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Topal Osman Ağa
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/karadeniz/topal_osman.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Topal Osman Ağa">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1883 Giresun doğumlu olan Osman Ağa, Balkan Harbi'nde bacağından yaralanarak "Topal" lakabını
+                        almış, buna rağmen vatan savunmasından geri durmamıştır. Birinci Dünya Savaşı ve sonrasındaki
+                        mütareke döneminde, Doğu Karadeniz'deki ayrılıkçı faaliyetlere karşı Giresun Gönüllü
+                        Taburları'nı (42. ve 47. Alaylar) kurarak bölgenin asayişini sağlamıştır. Mustafa Kemal Paşa'nın
+                        Samsun'a çıkışından sonra onunla Havza'da görüşerek Milli Mücadele safına katılmış ve Ankara'da
+                        Atatürk'ün "Giresunlu Gönüllülerden oluşan" ilk Muhafız Birliği'ni kurmuştur.
+
+                        Sakarya Meydan Muharebesi ve Büyük Taarruz'da bizzat cephede savaşan Osman Ağa, "Gönüllü Alay
+                        Komutanı" sıfatıyla üstün başarılar göstermiştir. Giresun'un milli kahramanı olarak kabul edilen
+                        Topal Osman, hem bir asker hem de yerel bir lider olarak Karadeniz'in direniş ruhunu temsil eden
+                        en tartışmalı ve en güçlü tarihi figürlerden biridir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalvolkankonak" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Volkan Konak
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/karadeniz/volkan_konak.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Volkan Konak">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Trabzon’un Maçka ilçesinde doğan Volkan Konak, Karadeniz müziğini sadece yerel bir ezgi olmaktan
+                        çıkarıp, batı enstrümanları ve evrensel formlarla harmanlayarak geniş kitlelere sevdiren bir
+                        "müzik elçisidir". İstanbul Teknik Üniversitesi Türk Musikisi Devlet Konservatuvarı mezunu olan
+                        sanatçı, akademik birikimini Karadeniz’in kültürel dokusuyla birleştirmiş; "Cerrahpaşa", "Mimoza
+                        Çiçeğim" ve "Göklerde Kartal Gibiydim" gibi unutulmaz eserlere imza atmıştır.
+
+                        Onu diğer sanatçılardan ayıran en büyük özelliği, konserlerini birer "anlatı tiyatrosuna"
+                        dönüştürmesidir. Sahne performanslarında Karadeniz insanının zekasını, yaşanmışlıklarını ve
+                        memleket sevgisini kendine has şiirsel üslubuyla anlatır. 20'den fazla albümü ve sayısız
+                        ödülüyle Volkan Konak, Karadeniz ruhunun sahnedeki en gür ve en samimi sesidir.
+
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MARMARA -->
+    <div class="modal fade" id="modalahmethamditampinar" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Ahmet Hamdi Tampınar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/marmara/ahmet_hamdi_tanpınar.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Ahmet Hamdi Tampınar">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        İstanbul'un kalbinde, 1901 yılında dünyaya gelen Tanpınar, şehrin değişimini ve ruhunu edebiyata
+                        en derin işleyen isimdir. "Huzur" romanı, sadece bir kurgu değil, İstanbul'a yazılmış bir aşk
+                        mektubu ve şehircilik ansiklopedisidir. Tanpınar, İstanbul’un değişen çehresine, eskiyle yeninin
+                        çatışmasına bir şahit gibi yaklaşmıştır. Yazılarında İstanbul'un hem hüzünlü hem de görkemli
+                        yapısını, semt semt, mahalle mahalle adeta bir ressam gibi betimlemiştir. Şehrin dokusunu,
+                        mimarisini ve sosyal değişimini, kendi iç dünyasındaki huzursuzluklarla birleştirerek eşsiz bir
+                        üslup yaratmıştır. İstanbul'un bir "insan" gibi nefes aldığını hissettiren tek yazardır. Onun
+                        için İstanbul, sadece bir coğrafya değil, bir varoluş biçimidir. Bugün şehri gezen herkesin,
+                        Tanpınar’ın cümlelerinde kendinden bir parça bulması bu yüzdendir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalaziznesin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Aziz Nesin
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/marmara/aziz_nesin.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Aziz Nesin">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Aziz Nesin, 1915 yılında İstanbul’un Heybeliada semtinde dünyaya gelmiştir. Marmara’nın o çok
+                        kültürlü ve ada atmosferi, onun keskin gözlem yeteneğini besleyen ilk durak olmuştur. Türk
+                        edebiyatının en önemli hiciv ustalarından biri olan Nesin, toplumun aksayan yönlerini mizahın
+                        gücüyle anlatmış, sıradan insanın trajikomik hikayelerini ölümsüzleştirmiştir. Yarattığı
+                        karakterler, Anadolu'nun ve büyükşehirlerin sosyolojik bir aynası niteliğindedir. Sadece bir
+                        yazar değil, aynı zamanda cesur bir düşünür ve toplumsal duyarlılığı yüksek bir aydındır. "Yaşar
+                        Ne Yaşar Ne Yaşamaz" gibi eserleriyle bürokrasiye ve sosyal adaletsizliklere getirdiği
+                        eleştiriler, günümüzde dahi tazeliğini korumaktadır. Marmara bölgesinin hem entelektüel
+                        derinliğini hem de sivri dilli mizah geleneğini kişiliğinde birleştirmiştir. Hayatı boyunca
+                        haksızlığa karşı duruşu ve eğitim alanındaki vakıf çalışmalarıyla gelecek kuşaklara büyük bir
+                        miras bırakmıştır. O, toplumu güldürürken düşündüren, gerçekleri en saf haliyle yüzümüze vuran
+                        bir kalemdir. İstanbul'un o hareketli yapısı, onun kalemindeki kıvraklığın en büyük ilham
+                        kaynağı olmuştur.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalbarismanco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Barış Manço
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/marmara/baris-manco.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Barış Manço">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        1943 yılında İstanbul'un Üsküdar semtinde doğan Barış Manço, Marmara'nın modern ve globalleşen
+                        yüzünün en sevilen temsilcisidir. Müziğinde kullandığı enstrümanlarla Doğu ve Batı sentezini
+                        kusursuz bir şekilde kurmuş, bu yönüyle bölgenin her zaman bir "köprü" olma özelliğini sanatına
+                        yansıtmıştır. Sadece müzisyenliğiyle değil, "Adam Olacak Çocuk" programıyla nesilleri yetiştiren
+                        bir eğitimci ve televizyoncu kimliğiyle de unutulmazlar arasındadır. İstanbul'un o hareketli,
+                        enerjik ve yenilikçi ruhunu kişiliğinde somutlaştırmıştır. Şarkılarındaki hikayeleştirme tarzı,
+                        Anadolu kültürünü şehirlere, şehirlerin modernitesini ise köylere taşımıştır. Çocuklardan
+                        yaşlılara kadar herkesin "Barış Abi"si olmayı başarmış, sevgi ve hoşgörü mesajlarını şarkılarına
+                        nakış gibi işlemiştir. İstanbul'un o eşsiz enerjisini, tüm dünyaya yayabilen ender sanatçılardan
+                        biri olarak bugün hala birleştirici bir figürdür.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalfsm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Fatih Sultan Mehmet
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/person/marmara/fsm.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Fatih Sultan Mehmet">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Osmanlı'nın en parlak dönemlerinden birinin mimarı olan Fatih Sultan Mehmet, 1432 yılında
+                        Edirne'de dünyaya gelmiştir. O dönemde Osmanlı'nın yönetim merkezi olan Edirne, onun vizyonunun
+                        şekillendiği ilk yerdir. Henüz genç yaşta tahta geçtiğinde, sadece bir asker değil, aynı zamanda
+                        çok iyi eğitim almış, Batı ve Doğu dillerine hakim, strateji ve felsefe üzerine derinleşmiş bir
+                        entelektüeldir. Edirne Sarayı'nın kültürel ortamında yetişmesi, onun sanatçıları koruyan ve
+                        bilime değer veren kişiliğinin temelini atmıştır. İstanbul'u fethederek tarihin akışını
+                        değiştirdiğinde, aslında Edirne'de aldığı o çok yönlü eğitimi zirveye taşımıştır. Hem bir bilim
+                        insanı hem de bir devlet adamı olarak bölgenin "evrensel" karakterini temsil eder. Vefatına
+                        kadar kurduğu düzen, günümüz Türkiye'sinin kozmopolit yapısının da temellerini oluşturmuştur. O,
+                        sadece bir bölgenin değil, bir çağın kaderini değiştiren büyük bir liderdir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

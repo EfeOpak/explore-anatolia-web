@@ -1,0 +1,1470 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mutfak</title>
+    <link rel="icon" type="image/jpeg" href="media/logo/favicon.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-xl navbar-dark">
+        <div class="container-fluid custom-navbar">
+
+            <!--LOGO START-->
+            <a class="navbar-brand" href="homepage.html">
+                <video class="logo-video" autoplay loop muted playsinline>
+                    <source src="media/logo/Lonelywolf.webm" type="video/webm">
+                    Tarayıcınız video logosunu desteklemiyor.
+                </video>
+                <span>Buram Buram Anadolu</span>
+            </a>
+            <!--LOGO END-->
+
+            <!--SMALL SCREEN BUTTON START-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--SMALL SCREEN BUTTON END-->
+
+            <!--SLOGAN START-->
+            <div class="navbar-center">
+                <span class="navbar-slogan">“Bastığın Yerleri Toprak Diyerek Geçme”</span>
+            </div>
+            <!--SLOGAN END-->
+
+            <!--MENU START-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" aria-current="page" href="about.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle me-2" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                            </svg>
+                            <span>Hakkında</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="food.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none" stroke="currentColor" stroke-width="0.8" class="bi bi-fork-knife me-2">
+                                <path
+                                    d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z" />
+                            </svg>
+                            <span>Mutfak</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="naturebeauty.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-leaf me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.4 1.7c.216.289.65.84 1.725 1.274 1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728.457 1.17 1.13 2.213 2.079 2.961.942.744 2.185 1.22 3.83 1.221 2.588 0 3.91-.66 4.609-1.445-1.789-2.46-4.121-1.213-6.342-2.68-.74-.488-1.735-1.323-1.844-2.308-.023-.214.237-.274.38-.112 1.4 1.6 3.573 1.757 5.59 2.045 1.227.215 2.21.526 3.033 1.158.058-.39.075-.782.075-1.158 0-.91-.288-1.988-.975-2.792-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811" />
+                            </svg>
+                            <span>Doğal Güzellikler</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="historicalplace.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bank me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z" />
+                            </svg>
+                            <span>Tarihi Yerler</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="person.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                            </svg>
+                            <span>Kişiler</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--MENU START-->
+    <!--NAVBAR END-->
+
+    <!--REGION CARDS START-->
+    <div class="container mt-5 mb-5">
+
+        <!--PAGE TITLE START-->
+        <div class="text-center mb-5">
+            <h1 class="fw-bold main-title">~ Mutfak ~</h1>
+            <div class="title-line mx-auto mb-5"></div>
+        </div>
+        <!--PAGE TITLE END-->
+
+        <!--REGION START-->
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Akdeniz
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaladanakebap">
+                    <img src="media/food/akdeniz/adana_kebap.jpg.webp" class="card-img-top" alt="Adana Kebap">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Adana Kebap</h5>
+                        <p class="card-text text-truncate">Türk mutfağının tartışmasız zirve noktalarından biri olan
+                            Adana Kebap, sadece bir yemek değil, kuşaktan kuşağa aktarılan asırlık bir zanaatın
+                            tezahürüdür. </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalantalyapiyazi">
+                    <img src="media/food/akdeniz/antalya_piyazi.jpg" class="card-img-top" alt="Antalya Piyazı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Antalya Piyazı</h5>
+                        <p class="card-text text-truncate">Klasik bir salata anlayışını kökten değiştiren Antalya
+                            Piyazı, barındırdığı zengin malzemelerle başlı başına bir ana yemek vakarına ve derinliğine
+                            sahiptir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalhataykunefesi">
+                    <img src="media/food/akdeniz/hatay_kunefe.jpg" class="card-img-top" alt="Hatay Künefesi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Hatay Künefe</h5>
+                        <p class="card-text text-truncate">Medeniyetlerin buluşma noktası Hatay’ın dünyaya en tatlı
+                            hediyesi olan künefe, peynir ve kadayıfın ateşteki en romantik ve tutkulu buluşmasıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalmersintantuni">
+                    <img src="media/food/akdeniz/mersin_tantuni.jpg" class="card-img-top" alt="Mersin Tantuni">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Mersin Tantuni</h5>
+                        <p class="card-text text-truncate">Mersin’in sokak kültüründen tüm dünyaya yayılan Tantuni,
+                            basit malzemelerin usta ellerde nasıl birer sanat eserine dönüşebileceğinin en canlı
+                            kanıtıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Doğu Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalcagkebap">
+                    <img src="media/food/doguanadolu/cag_kebabi.webp" class="card-img-top" alt="Cağ Kebabı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cağ Kebabı</h5>
+                        <p class="card-text text-truncate">Cağ kebabı, oğlak veya kuzu etinden yapılan Türk mutfağında
+                            bir çeşit kebaptır. Şişe geçirilip yatay olarak kızartılan ve küçük küçük kesilip servis
+                            edilen bu kebaba Oltu kebabı da denir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalerzurumkadayifdolmasi">
+                    <img src="media/food/doguanadolu/kadayif_dolmasi.webp" class="card-img-top"
+                        alt="Erzurum Kadayıf Dolması">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Erzurum Kadayıf Dolması</h5>
+                        <p class="card-text text-truncate">Erzurum kadayıf dolması, Erzurum mutfağından Türkiye'ye
+                            yayılan bir tatlıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkeledos">
+                    <img src="media/food/doguanadolu/keledos.webp" class="card-img-top" alt="Keledoş">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Keledoş</h5>
+                        <p class="card-text text-truncate">Keledoş veya Kələkoş Türkiye'nin doğusunda bilinen, kimisine
+                            göre Ağrı, Bitlis, kimisine göre Van veya Muş yöresine ama genel anlamda Türkiye'nin Doğu
+                            Anadolu Bölgesi'nin Yukarı Murat-Van bölümüne ait yöresel bir yemektir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalvankahvaltisi">
+                    <img src="media/food/doguanadolu/van_kahvaltisi.jpg" class="card-img-top" alt="Van Kahvaltısı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Van Kahvaltısı</h5>
+                        <p class="card-text text-truncate">Van kahvaltısı, kökeni geçmişte sabah erken saatlerde evine
+                            dönmeden dışarıda kahvaltı yapan esnafa dayanan bir kültürdür.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Ege
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalboyoz">
+                    <img src="media/food/ege/boyoz.jpg" class="card-img-top" alt="Boyoz">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Boyoz</h5>
+                        <p class="card-text text-truncate">15. yüzyılda İspanya'dan göç eden Sefarad Yahudileri
+                            aracılığıyla İzmir mutfak kültürüne katılan Boyoz, şehrin en köklü kahvaltı geleneğidir..
+                        </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalcokertme">
+                    <img src="media/food/ege/cokertme-kebabi.jpg" class="card-img-top" alt="Çökertme Kebabı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Çökertme Kebabı</h5>
+                        <p class="card-text text-truncate">Bodrum yöresinden doğup tüm Ege'ye yayılan Çökertme Kebabı,
+                            bölgenin modern mutfak klasiklerinden biridir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkabak">
+                    <img src="media/food/ege/kabak_çiçeği_dolması.jpg" class="card-img-top" alt="Kabak Çiçeği Dolması">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kabak Çiçeği Dolması</h5>
+                        <p class="card-text text-truncate">Ege'nin doğasıyla kurduğu naif ilişkinin en somut örneği olan
+                            Kabak Çiçeği Dolması, sabır ve emek isteyen özel bir lezzettir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalenginar">
+                    <img src="media/food/ege/zeytinyağlı_enginar.jpg" class="card-img-top" alt="Zeytinyağlı Enginar">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Zeytinyağlı Enginar</h5>
+                        <p class="card-text text-truncate">"Ege'nin altın sıvısı" zeytinyağının en sofistike haliyle
+                            buluştuğu Zeytinyağlı Enginar, bölgenin sağlıklı, hafif ve uzun yaşamı destekleyen beslenme
+                            kültürünün temel taşıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Güneydoğu Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalbaklava">
+                    <img src="media/food/guneydoguanadolu/baklava.jpg" class="card-img-top" alt="Baklava">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Baklava</h5>
+                        <p class="card-text text-truncate">Gaziantep mutfağıyla özdeşleşen ve Avrupa Birliği tarafından
+                            tescillenen ilk Türk ürünü olan baklava, Mezopotamya’nın en zarif lezzetidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalcigerkebap">
+                    <img src="media/food/guneydoguanadolu/ciger_kebabi.webp" class="card-img-top" alt="Ciğer Kebabı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ciğer Kebabı</h5>
+                        <p class="card-text text-truncate">Güneydoğu Anadolu mutfağının en karakteristik lezzetlerinden
+                            biri olan Ciğer Kebabı, bölgede sadece akşam yemeği değil, aynı zamanda en sevilen kahvaltı
+                            seçeneğidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaliclikofte">
+                    <img src="media/food/guneydoguanadolu/icli_kofte.jpg" class="card-img-top" alt="İçli Köfte">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">İçli Köfte</h5>
+                        <p class="card-text text-truncate">Güneydoğu Anadolu mutfağının en ikonik lezzetlerinden biri
+                            olan içli köfte, özellikle Arap ve Süryani mutfak kültürlerinin etkisiyle şekillenmiş bir
+                            gastronomi harikasıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalperdepilavi">
+                    <img src="media/food/guneydoguanadolu/perde_pilavi.jpg" class="card-img-top" alt="Perde Pilavı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Perde Pilavı</h5>
+                        <p class="card-text text-truncate">Güneydoğu Anadolu’nun, özellikle de Siirt’in en köklü
+                            lezzetlerinden biri olan Perde Pilavı, özel bir hamur "perdesi" içinde fırınlanarak
+                            hazırlanan bir şaheserdir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    İç Anadolu
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalankaratavasi">
+                    <img src="media/food/icanadolu/ankara_tavasi.webp" class="card-img-top" alt="Ankara Tavası">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ankara Tavası</h5>
+                        <p class="card-text text-truncate">Ankara mutfağının en seçkin yemeklerinden biri olan Ankara
+                            Tavası, özellikle düğünler, bayramlar ve özel davetlerin vazgeçilmezidir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaletliekmek">
+                    <img src="media/food/icanadolu/etli_ekmek.webp" class="card-img-top" alt="Etli Ekmek">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Etli Ekmek</h5>
+                        <p class="card-text text-truncate">Konya denilince akla gelen ilk lezzet olan Etli Ekmek,
+                            incecik açılmış hamurun üzerine serilen özel et karışımıyla hazırlanan, uzunluğu bazen bir
+                            metreyi aşan bir gastronomi sembolüdür.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkayserimantisi">
+                    <img src="media/food/icanadolu/kayseri_mantisi.jpg" class="card-img-top" alt="Kayseri Mantısı">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kayseri Mantısı</h5>
+                        <p class="card-text text-truncate">Kayseri mutfağının dünya çapındaki imzası olan bu mantı,
+                            "küçüklüğü" ile nam salmıştır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalsivaskoftesi">
+                    <img src="media/food/icanadolu/sivas_koftesi.jpg" class="card-img-top" alt="Sivas Köftesi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sivas Köftesi</h5>
+                        <p class="card-text text-truncate">Sivas mutfağının coğrafi işaretli en önemli lezzeti olan
+                            Sivas Köftesi, diğer pek çok köfte türünün aksine içinde baharat, ekmek içi, soğan veya
+                            sarımsak barındırmaz.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Karadeniz
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalhamsilipilav">
+                    <img src="media/food/karadeniz/hamsili_pilav.jpg" class="card-img-top" alt="Hamsili Pilav">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Hamsili Pilav</h5>
+                        <p class="card-text text-truncate">Hamsili Pilav, denizden çıkan gümüş renkli hamsilerin, iç
+                            pilavın etrafına tek tek ve boşluk kalmayacak şekilde dizilmesiyle hazırlanan görsel bir
+                            şölendir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkaralahanacorbasi">
+                    <img src="media/food/karadeniz/kara_lahana_corbasi.jpg" class="card-img-top"
+                        alt="Kara Lahana Çorbası">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kara Lahana Çorbası</h5>
+                        <p class="card-text text-truncate">Karadeniz mutfağının en temel direği olan Karalahana Çorbası,
+                            bölge insanı için sadece bir yemek değil, kış aylarının ve sert doğa koşullarının en güçlü
+                            savunma mekanizmasıdır.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkaralahanasarmasi">
+                    <img src="media/food/karadeniz/karalahana_sarmasi.jpg" class="card-img-top"
+                        alt="Karalahana Sarması">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Karalahana Sarması</h5>
+                        <p class="card-text text-truncate">Karadeniz sofralarının en prestijli yemeklerinden biri olan
+                            Karalahana Sarması, bölgenin sert yapraklı ve karakteristik sebzesinin en zarif sunumudur.
+                        </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalkuymak">
+                    <img src="media/food/karadeniz/mihlama(kuymak).jpg" class="card-img-top" alt="Kuymak">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kuymak</h5>
+                        <p class="card-text text-truncate">Karadeniz kahvaltılarının başrol oyuncusu olan Kuymak,
+                            özellikle Trabzon, Rize ve Artvin yörelerinde farklı nüanslarla hazırlanan, yüksek kalorili
+                            ve aşırı lezzetli bir "peynir şöleni"dir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="fw-bold" style="color: #75584a; border-left: 5px solid #75584a; padding-left: 15px;">
+                    Marmara
+                </h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaledirnetavacigeri">
+                    <img src="media/food/marmara/edirne_tava_ciğeri.jpg" class="card-img-top" alt="Edirne Tava Ciğeri">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Edirne Tava Ciğeri</h5>
+                        <p class="card-text text-truncate">Edirne'nin simgesi olan bu lezzet, dana ciğerinin
+                            sinirlerinden tamamen arındırılıp yaprak gibi incecik kesilmesiyle başlar.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modalhünkarbegendi">
+                    <img src="media/food/marmara/hünkar_beğendi.jpg" class="card-img-top" alt="Hünkar Beğendi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Hünkar Beğendi</h5>
+                        <p class="card-text text-truncate">Osmanlı saray mutfağından günümüze miras kalan Hünkar
+                            Beğendi, zarafeti ve lezzet dengesiyle öne çıkan rafine bir yemektir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaliskender">
+                    <img src="media/food/marmara/iskender.webp" class="card-img-top" alt="İskender">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">İskender</h5>
+                        <p class="card-text text-truncate">Bursa mutfağının dünyaya açılan kapısı olan İskender, 19.
+                            yüzyılda İskender Efendi tarafından geliştirilmiştir.</p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="cursor: pointer;" data-bs-toggle="modal"
+                    data-bs-target="#modaltekirdagkoftesi">
+                    <img src="media/food/marmara/tekirdag_koftesi.jpg" class="card-img-top" alt="Tekirdağ Köftesi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Tekirdağ Köftesi</h5>
+                        <p class="card-text text-truncate">Trakya'nın köklü hayvancılık kültüründen doğan Tekirdağ
+                            köftesi, kıymanın özel baharatlar ve ekmek içiyle uzun süre dinlendirilmesiyle hazırlanır.
+                        </p>
+                        <small class="text-muted">Detaylar için tıkla</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--REGION START-->
+    <!--REGION CARDS END-->
+
+
+
+
+    <!--FOOTER START-->
+    <footer class="py-3 mt-4 text-white">
+        <div class="container-fluid">
+            <ul class="nav justify-content-evenly flex-wrap py-3 mb-3 footer-names">
+                <li class="nav-item"><span class="px-2">EFE OPAK</span></li>
+                <li class="nav-item"><span class="px-2">ÖMER FARUK KAZAR</span></li>
+                <li class="nav-item"><span class="px-2">MUHAMMED MUSTAFA KİLCAROĞLU</span></li>
+                <li class="nav-item"><span class="px-2">ALPEREN İLHAN</span></li>
+                <li class="nav-item"><span class="px-2">NURİ ERDEM</span></li>
+            </ul>
+
+            <p class="footer-note">
+                İnternet Teknolojileri final projesi kapsamında geliştirilmiştir.
+            </p>
+
+            <p class="text-center mt-3 mb-0 small">
+                © 2026 Buram Buram Anadolu
+            </p>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--IMPORT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <!--POP UP FOR CARDS-->
+    <!--AKDENİZ-->
+    <div class="modal fade" id="modaladanakebap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Adana Kebap
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/akdeniz/adana_kebap.jpg.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Adana Kebap">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Türk mutfağının tartışmasız zirve noktalarından biri olan Adana Kebap, sadece bir yemek değil,
+                        kuşaktan kuşağa aktarılan asırlık bir zanaatın tezahürüdür. Bu lezzeti benzersiz kılan, "zırh"
+                        adı verilen özel bıçaklarla elde kıyılan kuzu etinin, kuyruk yağı ve taze baharatlarla girdiği
+                        kusursuz iş birliğidir. Meşe kömürü ateşinde sabırla pişen kebap, dumanı üzerinde tüten ipeksi
+                        lavaşlarla buluştuğunda gerçek bir lezzet şölenine dönüşür. Yanında servis edilen közlenmiş
+                        biberler, sumaklı soğan salatası ve mevsim yeşillikleriyle kurulan o meşhur sofra, Akdeniz’in
+                        cömertliğini temsil eder. Coğrafi işaretli bu başyapıt, her ısırıkta size Adana’nın o sıcak ve
+                        samimi ruhunu hissettiren, gastronomi dünyasının asil bir mirasıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalantalyapiyazi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Antalya Piyazı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/akdeniz/antalya_piyazi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Antalya Piyazı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Klasik bir salata anlayışını kökten değiştiren Antalya Piyazı, barındırdığı zengin malzemelerle
+                        başlı başına bir ana yemek vakarına ve derinliğine sahiptir. Onu Türkiye’deki tüm piyazlardan
+                        ayıran en temel özellik, üzerine cömertçe gezdirilen tahinli, limonlu ve sarımsaklı o yoğun ve
+                        karakteristik sosudur. Küçük taneli Çandır fasulyesinin ipeksi dokusu, haşlanmış yumurta ve taze
+                        domatesle birleştiğinde ortaya çıkan besleyici yapı, damaklarda unutulmaz bir iz bırakır.
+                        Antalya’nın tarımsal bereketini ve damak tadındaki seçiciliğini simgeleyen bu özel tarif, şehre
+                        gelen her gezginin mutlaka deneyimlemesi gereken bir gurme durağıdır. Sosunun kıvamından
+                        fasulyesinin yumuşaklığına kadar her detayıyla, Akdeniz’in sofistike mutfak kültürünü temsil
+                        eden bir lezzet anıtıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalhataykunefesi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Hatay Künefesi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/akdeniz/hatay_kunefe.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Hatay Künefesi">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Medeniyetlerin buluşma noktası Hatay’ın dünyaya en tatlı hediyesi olan künefe, peynir ve
+                        kadayıfın ateşteki en romantik ve tutkulu buluşmasıdır. Özel tuzsuz künefe peynirinin uzayan
+                        dokusu, bakır tepsilerde tereyağı ile altın sarısı rengini alana dek pişen çıtır kadayıfla
+                        birleşince ortaya bir gastronomi efsanesi çıkar. Üzerine dökülen tam kıvamındaki ılık şerbetin
+                        peynirle girdiği o eşsiz kontrast, tatlı kavramını bambaşka bir boyuta taşıyarak duyuları
+                        harekete geçirir. Köz ateşinde çevrilerek pişirilmesi, bu tatlıya isli ve derin bir karakter
+                        katarak onu fabrikasyon üretimlerden keskin bir şekilde ayırır. Üzerine serpilen yemyeşil Antep
+                        fıstıklarıyla servis edilen Hatay künefesi, Akdeniz misafirperverliğinin ve tarihinin en
+                        lezzetli belgesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalmersintantuni" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Mersin Tantuni
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/akdeniz/mersin_tantuni.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="İstanbul">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Mersin’in sokak kültüründen tüm dünyaya yayılan Tantuni, basit malzemelerin usta ellerde nasıl
+                        birer sanat eserine dönüşebileceğinin en canlı kanıtıdır. Özel olarak tasarlanmış sac üzerinde,
+                        pamuksu dana etlerinin su ve yağ eşliğinde dans eder gibi pişirilmesi, bu lezzetin karakterini
+                        oluşturur. İncecik, adeta kağıt gibi açılmış taze lavaşların sacın yağıyla buluşturulması,
+                        ardından içine eklenen sumaklı soğan, domates ve maydanoz karışımıyla ortaya çıkan uyum
+                        büyüleyicidir. Tantuniyi sadece bir "dürüm" olmaktan çıkaran, pişirme tekniğindeki o ince
+                        ustalık ve Mersin’in liman şehri enerjisidir. Her lokmada damağınıza yayılan o hafif acı ve
+                        baharat dengesi, Akdeniz akşamlarının vazgeçilmez bir seremonisi niteliğindedir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DOGUANADOLU-->
+    <div class="modal fade" id="modalcagkebap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Cağ Kebabı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/doguanadolu/cag_kebabi.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Cağ kebabı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Cağ kebabı, oğlak veya kuzu etinden yapılan Türk mutfağında bir çeşit kebaptır. Şişe geçirilip
+                        yatay olarak kızartılan ve küçük küçük kesilip servis edilen bu kebaba Oltu kebabı da denir.
+
+                        Cağ kebabı, 2022 yılında TasteAtlas'ın yayınladığı Dünya'nın en lezzetli yemekleri listesinde 9.
+                        sırada yer aldı. Coğrafi tescili bulunan Erzurum'un Oltu Cağ Kebabı Türkiye'nin en lezzetli
+                        yemeği seçildi. Dünya lezzetlerinde ilk 10'a girmesi ve Türk mutfağının en iyisi seçilmesiyle
+                        Türkiye'yi ve Erzurum bölgesini temsil etti.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalerzurumkadayifdolmasi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Erzurum Kadayıf
+                        Dolması
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/doguanadolu/kadayif_dolmasi.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Erzurum Kadayıf Dolması">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Erzurum kadayıf dolması, Erzurum mutfağından Türkiye'ye yayılan bir tatlıdır. Tel kadayıf
+                        hamuru, ceviz ya da fındık içi, yumurta, sıvıyağ (kızartmak için) ile yapılır. Şerbeti toz şeker
+                        ve limon suyundan hazırlanır.
+
+                        Erzurum Kadayıf Dolması, 26.06.2012 tarihinde Türk Patent ve Marka Kurumu tarafından
+                        tescillenmiş ve coğrafi işaret almıştır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalvankahvaltisi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Van Kahvaltısı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/doguanadolu/van_kahvaltisi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Van Kahvaltısı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Van kahvaltısı, kökeni geçmişte sabah erken saatlerde evine dönmeden dışarıda kahvaltı yapan
+                        esnafa dayanan bir kültürdür. 1940’lardan itibaren açılan “süt evleri” ile gelişmiş; manda sütü,
+                        kaymak ve bal üçlüsü bu kültürün temelini oluşturmuştur.
+
+                        Günümüzde ise Van kahvaltısı; otlu peynir, kavut, murtuğa, gül reçeli, tereyağı, çörek ve
+                        semaver çayı gibi birçok yöresel ürünle zenginleşmiştir. Doğallık ve yerellik ön plandadır;
+                        işlenmiş et ürünleri ve kızartmalar yer almaz.
+
+                        Coğrafi işaretle tescillenmiş olan Van kahvaltısı, 2014’te düzenlenen ve Guinness Rekorlar
+                        Kitabı’na giren dev kahvaltı etkinliği sayesinde dünya çapında tanınırlık kazanmıştır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalkeledos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Keledoş
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/doguanadolu/keledos.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Keledoş">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Keledoş veya Kələkoş Türkiye'nin doğusunda bilinen, kimisine göre Ağrı, Bitlis, kimisine göre
+                        Van veya Muş yöresine ama genel anlamda Türkiye'nin Doğu Anadolu Bölgesi'nin Yukarı Murat-Van
+                        bölümüne ait yöresel bir yemektir. Yapılışı bu yörelere göre değişmektedir. Van keledoşu Türk
+                        Patent ve Marka Kurumu tarafından tescillenmiş ve coğrafi işaret almıştır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--EGE-->
+    <div class="modal fade" id="modalboyoz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Boyoz
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/ege/boyoz.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="İstanbul">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        yüzyılda İspanya'dan göç eden Sefarad Yahudileri aracılığıyla İzmir mutfak kültürüne katılan
+                        Boyoz, şehrin en köklü kahvaltı geleneğidir. Mayasız hamurdan büyük bir özenle hazırlanan ve
+                        fırından çıktığı anki çıtırlığıyla nam salan bu lezzet, İzmir'in çok kültürlü geçmişinin
+                        günümüze ulaşan en sevilen hatırasıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalcokertme" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Çökertme Kebabı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/ege/cokertme-kebabi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Çökertme Kebabı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Bodrum yöresinden doğup tüm Ege'ye yayılan Çökertme Kebabı, bölgenin modern mutfak
+                        klasiklerinden biridir. Kibrit inceliğinde kızartılmış patateslerin üzerine yerleştirilen
+                        yumuşak bonfile parçaları, sarımsaklı yoğurt ve özel domates sosuyla oluşturulan bu sunum;
+                        Ege'nin yerel ürünlerini bir şölene dönüştüren yaratıcı ruhunu yansıtır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalkabak" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Kabak Çiçeği Dolması
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/ege/kabak_çiçeği_dolması.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Kabak Çiçeği Dolması">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Ege'nin doğasıyla kurduğu naif ilişkinin en somut örneği olan Kabak Çiçeği Dolması, sabır ve
+                        emek isteyen özel bir lezzettir. Kabak çiçeklerinin henüz güneş doğmadan, güneşle birlikte
+                        kapanmadan toplanması gerektiği için büyük bir incelikle hazırlanan bu yemek, bölge halkının
+                        doğadaki bereketi sofraya taşıma sanatının en zarif göstergesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalenginar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Zeytinyağlı Enginar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/ege/zeytinyağlı_enginar.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Zeytinyağlı Enginar">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        "Ege'nin altın sıvısı" zeytinyağının en sofistike haliyle buluştuğu Zeytinyağlı Enginar,
+                        bölgenin
+                        sağlıklı, hafif ve uzun yaşamı destekleyen beslenme kültürünün temel taşıdır. Mevsiminde tazecik
+                        toplanan enginarların, yerel otlar ve sebzelerle birleştiği bu yemek, yüzyıllardır Ege
+                        sofralarında şifa ve lezzetin mükemmel uyumunu temsil eder.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--GUNEYDOĞU ANADOLU-->
+    <div class="modal fade" id="modalbaklava" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Baklava
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/guneydoguanadolu/baklava.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Baklava">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Gaziantep mutfağıyla özdeşleşen ve Avrupa Birliği tarafından tescillenen ilk Türk ürünü olan
+                        baklava, Mezopotamya’nın en zarif lezzetidir. İncecik, adeta bir kağıt gibi (şeffaf) açılan 40
+                        kat yufkanın arasına serpilen taze Antep fıstığı ve üzerine dökülen tam kıvamındaki şerbetiyle,
+                        dünyanın en prestijli tatlıları arasında yer alır.
+
+                        Gerçek bir Gaziantep baklavasının en büyük özelliği, yerli üretim sert buğday unu, bölgeye has
+                        keçi sütü yağı ve "boz fıstık" denilen en kaliteli fıstıkların kullanılmasıdır. Taş fırınlarda
+                        meşe odunu ateşiyle pişirilen baklavanın kalitesi; renginin altın sarısı olması, ısırıldığında
+                        çıkan o meşhur "hışırtı" sesi (yufkanın inceliğinin kanıtı) ve damağa yayılan tereyağı-fıstık
+                        dengesiyle ölçülür.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalcigerkebap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Ciğer Kebabı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/guneydoguanadolu/ciger_kebabi.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Ciğer Kebabı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Güneydoğu Anadolu mutfağının en karakteristik lezzetlerinden biri olan Ciğer Kebabı, bölgede
+                        sadece akşam yemeği değil, aynı zamanda en sevilen kahvaltı seçeneğidir. Kuzu ciğerinin, kuyruk
+                        yağı ile birlikte küçük parçalar (tıkabaş) halinde şişlere dizilip kömür ateşinde ağır ağır
+                        pişirilmesiyle hazırlanır. Şanlıurfa’da daha küçük doğranmış ve isotla harmanlanmış ciğerler
+                        tercih edilirken, Diyarbakır’da daha iri parçalı ve yumuşak kıvamlı bir sunum ön plana çıkar.
+
+                        Servis edilmesi ise tam bir ritüeldir: Şişten çekilen sıcak ciğerler; taze lavaşın içine
+                        çekilir, yanına bol kimyon, maydanoz, közlenmiş biber ve olmazsa olmaz sumaklı soğan salatası
+                        eklenir. Güneydoğu sokaklarında sabahın ilk ışıklarıyla yükselen ciğer dumanı, bölgenin kadim
+                        yemek kültürünün ve güne lezzetli bir başlangıç yapma geleneğinin en canlı kanıtıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modaliclikofte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">İçli Köfte
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/guneydoguanadolu/icli_kofte.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="İçli Köfte">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Güneydoğu Anadolu mutfağının en ikonik lezzetlerinden biri olan içli köfte, özellikle Arap ve
+                        Süryani mutfak kültürlerinin etkisiyle şekillenmiş bir gastronomi harikasıdır. Dış katmanı
+                        incecik açılmış bulgur ve et karışımından (yörede "hıtap" veya "dış" denir), iç dolgusu ise bol
+                        soğanlı, kıymalı ve cevizli harçtan oluşur. Bölgeden bölgeye farklılık gösteren bu lezzet;
+                        Şanlıurfa ve Gaziantep’te genellikle kızartılarak, Mardin ve Diyarbakır çevresinde ise
+                        haşlanarak (Kibbe) servis edilir.
+
+                        Yapımı büyük bir ustalık ve sabır gerektiren içli köfte, sadece bir yemek değil, aynı zamanda
+                        özel günlerin ve misafirperverliğin en önemli simgesidir. İncecik duvarlı ve pürüzsüz bir dış
+                        katmana sahip olması, köfteyi yapan kişinin mutfaktaki maharetinin en büyük göstergesi kabul
+                        edilir. Yanında buz gibi bir ayran ve taze yeşilliklerle sunulan bu lezzet, Mezopotamya’nın
+                        bereketini sofralara taşır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalperdepilavi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Perde Pilavı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/guneydoguanadolu/perde_pilavi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Perde Pilavı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Güneydoğu Anadolu’nun, özellikle de Siirt’in en köklü lezzetlerinden biri olan Perde Pilavı,
+                        özel bir hamur "perdesi" içinde fırınlanarak hazırlanan bir şaheserdir. İçeriğinde keklik veya
+                        tavuk eti, pirinç, kuş üzümü, fıstık ve çeşitli baharatlar bulunan bu pilav, bakır tencerelerde
+                        (fes şeklinde) pişirilir. Hamurun dışının çıtır çıtır kızarması ve pilavın içindeki aromaların
+                        birbirine harmanlanmasıyla eşsiz bir lezzet sunar.
+
+                        Perde pilavı, lezzetinin yanı sıra taşıdığı derin anlamlarla da bilinir. Eski bir gelenek olarak
+                        yeni evli çiftlerin evine gönderilen bu yemekte; dıştaki hamur (perde) aile mahremiyetini,
+                        pirinç taneleri bereketi, bademler ise erkek ve kız çocuklarını sembolize eder. Sofraya bir
+                        bütün olarak getirilen ve kesilerek servis edilen bu pilav, hem göze hem de ruha hitap eden bir
+                        Mezopotamya geleneğidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--İC ANADOLU-->
+    <div class="modal fade" id="modalankaratavasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Ankara Tavası
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/icanadolu/ankara_tavasi.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Ankara Tavası">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Ankara mutfağının en seçkin yemeklerinden biri olan Ankara Tavası, özellikle düğünler, bayramlar
+                        ve özel davetlerin vazgeçilmezidir. Bu yemeği diğer etli pilavlardan ayıran en temel özellik,
+                        pirinç yerine arpa şehriye kullanılması ve pişirme tekniğidir. Kuzu ön kol veya kaburga etinden
+                        seçilen lokum kıvamındaki etler, önce kendi suyunda mühürlenir; ardından tereyağında kavrulan
+                        arpa şehriyelerle birleşerek fırınlanır. Domates, yeşil biber ve et suyunun şehriyeler
+                        tarafından tamamen emilmesiyle ortaya çıkan bu lezzet, hem doyurucu hem de aromatik bir
+                        şölendir.
+
+                        Ankara Tavası’nın makbulü, şehriyelerin birbirine yapışmadan tane tane dökülmesi ve etin
+                        kemiğinden kendiliğinden ayrılacak kadar yumuşak olmasıdır. Geleneksel olarak bakır tavalarda
+                        pişirilip servis edilen bu yemek, Anadolu’nun kadim fırın yemekleri kültürünün başkentteki en
+                        güçlü temsilcisidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modaletliekmek" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Etli Ekmek
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/icanadolu/etli_ekmek.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Etli Ekmek">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Konya denilince akla gelen ilk lezzet olan Etli Ekmek, incecik açılmış hamurun üzerine serilen
+                        özel et karışımıyla hazırlanan, uzunluğu bazen bir metreyi aşan bir gastronomi sembolüdür.
+                        Hazırlanışında kuzu eti, domates, yeşil biber ve maydanozdan oluşan zengin bir harç kullanılır.
+                        Bu harç, fırın ustasının maharetiyle neredeyse kağıt inceliğindeki hamura yayılır ve meşe odunu
+                        yanan taş fırınlarda yüksek ısıda pişirilir.
+
+                        Gerçek bir etli ekmeğin başarısı, hamurunun çıtırlığı ile üzerindeki malzemenin sulu kalması
+                        arasındaki hassas dengede saklıdır. Genellikle büyük ahşap tahtalar üzerinde, dilimlenmiş olarak
+                        servis edilir. Yanında buz gibi köpüklü bir ayran ve közlenmiş biberle sunulan etli ekmek,
+                        Konya'nın misafirperverliğini ve mutfak sanatındaki ustalığını temsil eden, Anadolu’nun en
+                        sevilen "paylaşım" yemeklerinden biridir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalkayserimantisi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Kayseri Mantısı
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/icanadolu/kayseri_mantisi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Kayseri Mantısı">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Kayseri mutfağının dünya çapındaki imzası olan bu mantı, "küçüklüğü" ile nam salmıştır.
+                        Geleneksel bir ölçü birimi olarak kabul edilen "bir kaşığa 40 adet sığması" kuralı, hem yapan
+                        kişinin maharetini hem de yemeğin zarafetini simgeler. İncecik açılan hamur karelerinin içine,
+                        özel baharatlarla harmanlanmış minicik kıyma parçaları yerleştirilir ve her biri kendine has
+                        "bohça" şeklinde kapatılır.
+
+                        Sarımsaklı yoğurt, kızdırılmış tereyağı, sumak ve pul biber ile servis edilen Kayseri mantısı,
+                        sadece bir yemek değil, aynı zamanda Kayseri kültüründe misafirperverliğin ve titizliğin en
+                        büyük göstergesidir. Haşlama suyunun içine eklenen salçalı sosuyla (salçalı su usulü)
+                        birleştiğinde ortaya çıkan o yoğun kıvam, Anadolu’nun en sevilen lezzet algoritmasını oluşturur.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalsivaskoftesi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Sivas Köftesi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/icanadolu/sivas_koftesi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Sivas Köftesi">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Sivas mutfağının coğrafi işaretli en önemli lezzeti olan Sivas Köftesi, diğer pek çok köfte
+                        türünün aksine içinde baharat, ekmek içi, soğan veya sarımsak barındırmaz. Bu köftenin temel
+                        "algoritması" sadece iki bileşenden oluşur: Yüksek kaliteli dana eti ve tuz. Sivas’ın
+                        meralarında doğal beslenen hayvanların eti kıyma haline getirilir, sadece tuzla yoğrulur ve bir
+                        gün dinlendirilir. Bu dinlenme süreci, etin kendi protein yapısının birbirine bağlanmasını
+                        (kohezyon) sağlar.
+
+                        İnce ve geniş bir disk şeklinde açılan köfteler, meşe odunu kömüründe, harlı ateşte pişirilir.
+                        Pişerken küçülmemesi ve sulu kalması usta işidir. Yanında közlenmiş biber, domates ve Sivas’ın
+                        meşhur tırnak pidesiyle servis edilen bu köfte, "az çoktur" (less is more) felsefesinin
+                        mutfaktaki en somut örneğidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--KARADENİZ-->
+    <div class="modal fade" id="modalhamsilipilav" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Hamsili Pilav
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/karadeniz/hamsili_pilav.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Hamsili Pilav">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Hamsili Pilav, denizden çıkan gümüş renkli hamsilerin, iç pilavın etrafına tek tek ve boşluk
+                        kalmayacak şekilde dizilmesiyle hazırlanan görsel bir şölendir. Pilavın içinde genellikle kuş
+                        üzümü, dolmalık fıstık, yenibahar, karabiber ve bolca soğan bulunur; bazı yörelerde mısır
+                        yarması veya maydanoz da eklenerek aroma derinleştirilir. Fırında pişen hamsiler, içindeki
+                        pilavın buharıyla demlenmesini sağlarken, kendileri de dışarıda çıtır bir katman oluşturur.
+
+                        Tabağa ters çevrilerek servis edildiğinde ortaya çıkan pasta görünümlü bu yapı, Karadeniz
+                        insanının estetik anlayışını ve hamsiye olan tutkusunu kanıtlar. Balığın deniz kokusuyla pilavın
+                        baharatlı dokusunun birbirine karıştığı bu yemek, Karadeniz sofralarının "özel gün" imzasıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalkaralahanacorbasi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Karalahana Çorbası
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/karadeniz/kara_lahana_corbasi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Karalahana Çorbası">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Karadeniz mutfağının en temel direği olan Karalahana Çorbası, bölge insanı için sadece bir yemek
+                        değil, kış aylarının ve sert doğa koşullarının en güçlü savunma mekanizmasıdır. Temelini ince
+                        kıyılmış karalahana yapraklarının oluşturduğu bu zengin çorba; mısır yarması, kuru fasulye,
+                        soğan, iç yağı (veya tereyağı) ve olmazsa olmaz acı pul biber ile ağır ateşte pişirilir. Bazı
+                        yörelerde içine mısır unu eklenerek kıvamı koyulaştırılır; bazı tariflerde ise patates veya
+                        ilikli kemik suyu ile besleyiciliği en üst seviyeye çıkarılır.
+
+                        Karalahana çorbasının gerçek bir Karadeniz sofrasındaki en sadık eşlikçisi, fırından yeni çıkmış
+                        sıcacık bir mısır ekmeğidir. Genellikle ekmek çorbanın içine doğranarak tüketilir. Yüksek demir
+                        ve vitamin deposu olan bu lezzet, Karadeniz’in dik yamaçlarında çalışan insanların ihtiyaç
+                        duyduğu enerjiyi sağlayan, bölgenin kadim mutfak kültürünü günümüze taşıyan en karakteristik
+                        "ana kart" niteliğindeki yemektir.
+
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalkaralahanasarmasi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Karalahana Sarması
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/karadeniz/karalahana_sarmasi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="İstanbul">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Karadeniz sofralarının en prestijli yemeklerinden biri olan Karalahana Sarması, bölgenin sert
+                        yapraklı ve karakteristik sebzesinin en zarif sunumudur. Genellikle satır kıyması veya küçük
+                        doğranmış et ile hazırlanan iç harcı; pirinç, bulgur, bol soğan, maydanoz ve Karadeniz’in özel
+                        baharatlarıyla zenginleştirilir. Karalahanalar, damarları temizlenip kısa süre haşlanarak
+                        yumuşatıldıktan sonra, bu harçla tek tek sarılır. Diğer sarmalardan en büyük farkı, yaprağın
+                        kendine has hafif kekremsi tadı ile iç harcın uyumudur.
+
+                        Özellikle mısır yarmasıyla (yarmalı sarma) yapılan versiyonları çok makbuldür. Pişirilirken
+                        üzerine gezdirilen tereyağı ve bazen eklenen ilikli kemikler, sarmaya derinlik katar. Genellikle
+                        yanında süzme yoğurt veya mısır ekmeği ile servis edilen bu yemek, Karadeniz insanının
+                        misafirine verdiği değerin ve mutfaktaki titizliğinin en somut göstergesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalkuymak" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Kuymak
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/karadeniz/mihlama(kuymak).jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Kuymak">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Karadeniz kahvaltılarının başrol oyuncusu olan Kuymak, özellikle Trabzon, Rize ve Artvin
+                        yörelerinde farklı nüanslarla hazırlanan, yüksek kalorili ve aşırı lezzetli bir "peynir
+                        şöleni"dir. Yapımına, yayık tereyağının bakır sahanda köpürene kadar yakılmasıyla başlanır.
+                        Ardından mısır unu eklenerek rengi dönene kadar kavrulur. Sıcak su (veya süt) eklenip kıvam
+                        alınca, Karadeniz’e özgü kolot peyniri veya telli peynir ilave edilir. Peynir tamamen eriyip
+                        tereyağı üzerine çıktığında (buna bölgede "yağın kusması" denir), Kuymak hazır hale gelir.
+
+                        Kuymak’ın en karakteristik özelliği, çatalı taktığınızda peynirin metrelerce uzamasıdır. En
+                        dibinde oluşan ve "kazıma" adı verilen kıtır tabaka ise müdavimleri için en değerli kısımdır.
+                        Genellikle mısır ekmeği banılarak yenen bu lezzet, Karadeniz’in zorlu arazi koşullarında çalışan
+                        insanlar için gün boyu sürecek bir enerji deposu sağlar.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MARMARA-->
+    <div class="modal fade" id="modaledirnetavacigeri" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Edirne Tava Ciğeri
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/marmara/edirne_tava_ciğeri.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Edirne Tava Ciğeri">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Edirne'nin simgesi olan bu lezzet, dana ciğerinin sinirlerinden tamamen arındırılıp yaprak gibi
+                        incecik kesilmesiyle başlar. Yüksek ateşte, özel bir teknikle çıtır çıtır kızartılan ciğer,
+                        Edirne'nin meşhur kurutulmuş acı biberleriyle servis edilir. Bu yemek, bölgenin hayvancılık
+                        geleneğini ve ustalık gerektiren özel pişirme tekniğiyle sunduğu bir gastronomi mirasıdır.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalhünkarbegendi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Hünkar Beğendi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/marmara/hünkar_beğendi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Hünkar Beğendi">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Osmanlı saray mutfağından günümüze miras kalan Hünkar Beğendi, zarafeti ve lezzet dengesiyle öne
+                        çıkan rafine bir yemektir. Közlenmiş patlıcan, beşamel sos ve kaşar peynirinin harmanlanmasıyla
+                        hazırlanan o meşhur "beğendi" yatağı, ağır ateşte pişmiş lokum gibi kuzu etiyle taçlandırılır.
+                        Saray mutfağının gösterişli yapısını yansıtan bu yemek, bölgenin tarihsel ve soylu lezzet
+                        birikiminin en önemli simgesidir.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modaliskender" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">İskender
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/marmara/iskender.webp" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="İskender">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Bursa mutfağının dünyaya açılan kapısı olan İskender, 19. yüzyılda İskender Efendi tarafından
+                        geliştirilmiştir. Döner etinin, tereyağı ve özel domates sosuyla pide üzerinde buluşması, bu
+                        yemeği sadece bir et yemeği olmaktan çıkarıp bir gurme şölenine dönüştürür. Türk mutfağının en
+                        ikonik ve tanınmış yemeklerinden biri olarak, Bursa'nın köklü yemek kültürünü temsil eder.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modaltekirdagkoftesi" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content" style="background-color: #fdfaf6; border-radius: 15px;">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #75584a;">Tekirdağ Köftesi
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="media/food/marmara/tekirdag_koftesi.jpg" class="img-fluid rounded mb-3"
+                        style="width: 100%; height: 400px; object-fit: cover;" alt="Tekirdağ Köftesi">
+
+                    <p class="lead" style="font-size: 1.1rem; line-height: 1.8; color: #4a3a33;">
+                        Trakya'nın köklü hayvancılık kültüründen doğan Tekirdağ köftesi, kıymanın özel baharatlar ve
+                        ekmek içiyle uzun süre dinlendirilmesiyle hazırlanır. Tekirdağ'a has kendine has lezzet
+                        profiliyle öne çıkan bu köfte, yanında servis edilen özel piyazı ve acı sosuyla bütünleşir.
+                        Bölge halkının sadeliği, ustalık ve kaliteli malzemeyle buluşturduğu geleneksel bir zanaatın
+                        ürünüdür.
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+body {
+    background-color: #e4cfb392;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #75584af9 !important;
+    padding: 0.8rem 1rem;
+}
+
+.custom-navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: white !important;
+    text-decoration: none;
+    flex-shrink: 0;
+    order: 1;
+}
+
+.logo-video {
+    height: clamp(40px, 5vw, 60px);
+    width: clamp(40px, 5vw, 60px);
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-toggler {
+    order: 2;
+    margin-left: auto;
+}
+
+.navbar-center {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-slogan {
+    color: rgba(255, 255, 255, 0.92);
+    font-style: italic;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    padding: 0 4px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-collapse {
+    order: 4;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    transform: translateY(-1px);
+}
+
+/* XL ve üstü */
+@media (min-width: 1200px) {
+    .custom-navbar {
+        flex-wrap: nowrap;
+    }
+
+    .navbar-center {
+        order: 2;
+        width: auto;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .navbar-collapse {
+        order: 3;
+        width: auto;
+        flex-grow: 0;
+    }
+
+    .navbar-slogan {
+        white-space: nowrap;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+/* XL altı */
+@media (max-width: 1199.98px) {
+    .navbar-slogan {
+        white-space: normal;
+        font-size: 0.95rem;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.7rem;
+    }
+}
+
+/*Carousel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    text-align: center;
+}
+
+.caption-box {
+    background: rgba(0, 0, 0, 0.40);
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.caption-box h5,
+.caption-box p {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* FOOTER */
+footer {
+    background-color: #75584af9;
+    color: white !important;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer-names {
+    width: 100%;
+    padding: 0 16px;
+    row-gap: 10px;
+}
+
+.footer-names .nav-item {
+    text-align: center;
+}
+
+.footer-names .nav-item span {
+    display: inline-block;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+footer .footer-note {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.7;
+    opacity: 0.95;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .footer-names {
+        justify-content: center !important;
+        padding: 0 10px;
+    }
+
+    .footer-names .nav-item {
+        width: 100%;
+    }
+
+    footer .footer-note {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+}
+
+.main-title {
+    color: #75584a;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    /* responsive */
+    letter-spacing: 2px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    /* sabit yükseklik */
+    object-fit: cover;
+    /* resmi kırpar ama oranı bozmaz */
+}
+
+.about-section {
+    max-width: 75%;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #3e2f28;
+    text-align: justify;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+
+.about-box {
+    max-width: 100%;
+    margin: 0 auto;
+    
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    
+    padding: 30px 35px;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about-box p {
+    color: #444;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.title-line {
+    width: 80px;
+    height: 3px;
+    background-color: #75584a;
+    border-radius: 2px;
+}
+
+.anadolu-text-box {
+    background: white;
+    backdrop-filter: blur(8px);
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+.anadolu-title {
+    font-weight: 700;
+    color: #75584a;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.anadolu-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #75584a;
+    margin: 10px auto 0;
+    border-radius: 2px;
+
+}
+
+.anadolu-text-box p {
+    color: #444;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
